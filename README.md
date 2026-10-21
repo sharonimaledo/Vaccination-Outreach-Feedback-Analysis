@@ -2,7 +2,7 @@
 
 ## What Happens After People Show Up?
 
-This repository presents an analysis of beneficiary and staff feedback from vaccination outreach across five states. Using Excel, records from 500 beneficiaries and 50 field staff were analysed to show what attendees experienced, what staff saw on the ground, and where the two views agree or differ. The findings are summarised in a two-page, plain-language brief for programme teams.
+This repository presents an analysis of beneficiary and staff feedback from vaccination outreach across five states. Using Excel pivot tables, records from 500 beneficiaries and 50 field staff were analysed to show what attendees experienced, what staff saw on the ground, and where the two views agree or differ. The findings are summarised in a two-page, plain-language brief for programme teams.
 
 This project uses synthetic practice data. No real people or programme results are involved.
 
@@ -22,19 +22,21 @@ This project uses synthetic practice data. No real people or programme results a
 
 ## Tool Used
 
-Microsoft Excel.
+Microsoft Excel: pivot tables and summary tables.
 
 ## Methodology
 
 * **Data checks:** Records were checked and cleaned before analysis, and every figure in the brief was checked against the raw data.
-* **Summaries:** Barriers, waiting time, satisfaction, information channels, language and requests were summarised overall and by state.
+* **Pivot summaries:** Pivot tables summarised barriers, waiting time, satisfaction, information channels, language and requests, overall and by state.
 * **Comparing two views:** Beneficiary feedback was set beside staff-reported mobilisation and operational challenges at state level.
 * **Cautious wording:** Findings are described as links, not causes, and the brief states what the data does and does not show.
 
 ## Repository Structure
 
-* Brief: two-page PDF for programme teams
-* Data: synthetic beneficiary and staff datasets (Excel)
+* **Brief:** Two-page PDF for programme teams.
+* **Data and Analysis (Excel Workbooks):**
+   * Beneficiary survey, pivot summaries, statistics, and correlation
+   * Staff survey, pivot summaries
 
 ## Follow-up
 
